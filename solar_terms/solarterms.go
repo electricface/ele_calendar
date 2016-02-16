@@ -13,7 +13,7 @@ var (
     LiChun = &SolarTerm{22, "立春", 2, 5}
     YuShui = &SolarTerm{23, "雨水", 2, 22}
     JingZhe = &SolarTerm{24, "惊蛰", 3, 5}
-    ChunFen = &SolarTerm{1, "春风", 3, 22}
+    ChunFen = &SolarTerm{1, "春分", 3, 22}
     QingMing = &SolarTerm{2, "清明", 4, 5}
     GuYu = &SolarTerm{3, "谷雨", 4, 22}
     LiXia = &SolarTerm{4, "立夏", 5, 5}
