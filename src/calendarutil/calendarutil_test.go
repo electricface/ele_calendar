@@ -170,9 +170,9 @@ func Test_GetJulianThousandYears(t *testing.T ) {
     }
 }
 
-func Test_getJulianCentury(t *testing.T) {
-    t.Log(getJulianCentury(2.2324937542361114e+06))
-    if -5.997296256369297 == getJulianCentury(2.2324937542361114e+06) {
+func Test_GetJulianCentury(t *testing.T) {
+    t.Log(GetJulianCentury(2.2324937542361114e+06))
+    if -5.997296256369297 == GetJulianCentury(2.2324937542361114e+06) {
         t.Log("ok")
     } else {
         t.Error("fail")

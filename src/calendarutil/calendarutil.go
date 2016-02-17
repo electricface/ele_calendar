@@ -362,7 +362,7 @@ func GetJulianThousandYears(jd float64) float64 {
  *            要计算的儒略日
  * @return 儒略世纪数
  */
-func getJulianCentury(jd float64) float64 {
+func GetJulianCentury(jd float64) float64 {
     return (jd - J2000) / DAYS_OF_CENTURY;
 }
 
